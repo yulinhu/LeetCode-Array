@@ -1,5 +1,5 @@
 //问题：一个数n，一个数k。从1-9中，选出k个数，加起来等于n。返回所有组合。
-class Solution216{
+class Solution216{ 
     //反向回溯算法，掌握还不熟练，感觉也挺暴力的。
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
